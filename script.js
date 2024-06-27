@@ -24,7 +24,7 @@ function calculateProfit() {
         statusField.style.display = 'none';
         resultField.style.display = 'block';
       resultField.value =
-        "The least trading capital which one can use for trading is $100. You need $" + (100 - newUserCapital) +" to top up your account to $100.";
+        "The least trading capital which a new user can use to start trading is $100. You need $" + (100 - newUserCapital) +" to top up your account to $100.";
       }
       else if (newUserCapital >= referalCapital / 2) {
       function cbexCalcForReferal() {
